@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Verdana, "Courier New", sans-serif;
+  margin: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #003366;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FF6600;
+  text-decoration: underline;
+}
+
+header, footer {
+  background-color: #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.container-missoes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bloco-missao {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+form input, form textarea, form select {
+  display: block;
+  margin: 8px auto;
+  padding: 6px;
+  width: 80%;
+}
+
+input[type="submit"]:hover {
+  background-color: #99ccff;
+  cursor: pointer;
+}
+
+main img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}

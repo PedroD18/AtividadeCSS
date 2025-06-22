@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Formulário</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Exploração Espacial</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="historia.html">História</a>
+      <a href="missoes.html">Missões</a>
+      <a href="impacto.html">Impacto Socioeconômico</a>
+      <a href="formulario.html">Formulário</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Teste seus conhecimentos sobre Exploração Espacial</h2>
+    <form>
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+      <label for="lua">Em que ano o homem pisou na Lua?</label>
+      <select id="lua" name="lua" required>
+        <option value="">Selecione uma opção</option>
+        <option value="1969">1969</option>
+        <option value="1971">1971</option>
+        <option value="1965">1965</option>
+      </select>
+
+      <fieldset>
+        <legend>Quais dessas agências fazem parte da exploração espacial?</legend>
+        <label><input type="checkbox" name="agencias" value="NASA"> NASA</label><br>
+        <label><input type="checkbox" name="agencias" value="ESA"> ESA</label><br>
+        <label><input type="checkbox" name="agencias" value="ISRO"> ISRO</label><br>
+        <label><input type="checkbox" name="agencias" value="ONU"> ONU</label>
+      </fieldset>
+
+      <p>Você acha importante investir em missões espaciais?</p>
+      <label><input type="radio" name="investimento" value="sim" required> Sim</label><br>
+      <label><input type="radio" name="investimento" value="nao"> Não</label><br>
+      <label><input type="radio" name="investimento" value="nao sei"> Não sei</label>
+
+      <label for="opniao">Qual a sua opinião sobre a colonização de Marte?</label>
+      <textarea id="opniao" name="opniao" placeholder="Escreva aqui" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
+
+  <footer>
+    <p>Email: Ficticio | Instagram: Ficticio | Telefone: Ficticio</p>
+  </footer>
+</body>
+</html>
